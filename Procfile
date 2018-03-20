@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/ROB-1.0-SNAPSHOT.jar
+web: java -Dserver.port=8080 Main -jar build/libs/ROB-1.0-SNAPSHOT.jar
