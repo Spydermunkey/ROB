@@ -1,1 +1,0 @@
-web: java -Dserver.port=8080 Main -jar build/libs/ROB-1.0-SNAPSHOT.jar
