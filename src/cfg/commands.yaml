@@ -1,0 +1,31 @@
+help:
+  description: This helpful message!
+  syntax: "/help"
+  arguments: none
+ban:
+  description: Permanently ban those troublemakers. Doubles as a temporary ban if
+    time argument is used.
+  syntax: "/ban <user> [reason] [time in hours]"
+  arguments: user (required); reason; time
+sban:
+  description: 'Soft ban. Kicks target from server and removes all messages. Warning:
+    they are free to rejoin.'
+  syntax: "/sban <user> [reason]"
+  arguments: user (required); reason
+kick:
+  description: 'Kicks target from server. Warning: they are free to rejoin.'
+  syntax: "/kick <user> [reason]"
+  arguments: user (required); reason
+mute:
+  description: Mutes target in all channels, permanently or temporarily.
+  syntax: "/mute <user> [reason]"
+  arguments: user (required); reason
+squelch:
+  description: Blocks all forms of text chat on the servers (excluding private messages).
+  syntax: "/squelch <user> [reason]"
+  arguments: user (required); reason
+warn:
+  description: 'Warn wrongdoers to provide insight on the rules and help users behave.
+    Default: three warnings, you''re out.'
+  syntx: "/warn <user> [reason]"
+  arguments: user (required); reason

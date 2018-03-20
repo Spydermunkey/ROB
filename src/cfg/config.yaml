@@ -1,0 +1,15 @@
+guild-id: 417478712582471680 # Extremely important.
+
+commands:
+  warn:
+    warns-for-ban: 3
+    require-reason: false
+  misc:
+    command-prefix: "/"
+
+nickname-updater:
+  update-speed: 300 # Number is in seconds.
+
+misc:
+  use-sqlite: true
+  bot-token: "NDIzNTY2NTgwNjE0NTYxODA0.DYsMow.nH1dwHfjQZA_z521sXabLScpEUA"
