@@ -65,7 +65,7 @@ class UserHandler extends ListenerAdapter {
 
 
     public void setMemberList(List<Member> sMEMBERS) {
-        MEMBERS = sMEMBERS;
+        MEMBERS = sMEMBERS; //test23
     }
 
     private void setNickname(Member MEMBER) {
