@@ -20,3 +20,12 @@ dependencies {
     compile 'net.dv8tion:JDA:3.5.0_329'
     compile 'org.jsoup:jsoup:1.11.2'
 }
+
+task copyToLib(type: Copy) {
+    into "$buildDir/lib"
+    from(configurations.compile)
+}
+
+task stage(dependsOn: ['build', 'clean'])
+stage.dependsOn(copyToLib)
+build.mustRunAfter clean
